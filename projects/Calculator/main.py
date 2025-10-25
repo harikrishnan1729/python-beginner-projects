@@ -42,6 +42,7 @@ def division():
     if n2 == 0:
         print("Invalid entry")
         return "Invalid entry"
+        print('number cannot be divided by zero')
     print(n1 / n2)
 
     return n1 / n2
